@@ -45,3 +45,7 @@
         border-bottom: 1px solid $header;
     }
 }
+.posts-container {
+    max-height: 100%;
+    overflow: auto;
+}
