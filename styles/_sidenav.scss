@@ -1,0 +1,23 @@
+.sidenav {
+    z-index: 3;
+    background-color: rgb(240,240,240);
+    height: 100%;
+    min-width: 200px;
+    .sidenav-navi {
+        padding-top: 15px;
+        .navi {
+            background-color: rgb(230,230,230);
+            width: 100%;
+            padding: 7px 10px;
+            margin-bottom: 1px;
+            cursor: pointer;
+        }
+        .navi:hover {
+            transition: 0.5s;
+            background-color: rgb(220,220,220);
+        }
+    }
+}
+.col-2 {
+    padding: 0 !important;
+}

@@ -1,0 +1,47 @@
+.posts {
+    padding: 15px;
+    max-height: 100%;
+    overflow: auto;
+    justify-content: space-evenly;
+    gap: 0.5em;
+}
+.post {
+    width: 250px;
+    height: 500px;
+    overflow-y: hidden;
+    border: 1px solid $border-gray;
+    border-radius: 5px;
+    h2 {
+        text-align: center;
+        padding-top: 5px;
+    }
+    .categories {
+        font-size: 13px;
+        text-align: center;
+        border-bottom: 1px solid $border-gray;
+    }
+    .img {
+        justify-content: center;
+        align-items: center;
+        img {
+            max-width: 100%;
+        }
+    }
+    .about {
+        font-size: 0.85em;
+        padding: 5px;
+        overflow: auto;
+        max-height: 150px;
+        text-align: justify;
+    }
+}
+.paginate {
+    span {
+        display: inline-block;
+        color: $header;
+        padding: 10px 0px 0px 0px;
+        margin-right: 7px;
+        cursor: pointer;
+        border-bottom: 1px solid $header;
+    }
+}

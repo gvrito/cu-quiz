@@ -1,0 +1,13 @@
+.header {
+    background-color: $header;
+    padding: 20px 5px;
+    z-index: 2;
+    .search {
+        gap: 1em;
+        color: $white-1;
+        align-items: center;
+        span {
+            cursor: pointer;
+        }
+    }
+}
